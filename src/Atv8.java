@@ -1,27 +1,20 @@
 public class Atv8 {
     public static void main(String[] args) {
-        // Exemplo da sequência de Fibonacci
         System.out.println("Fibonacci(5): " + fibonacci(5));
 
-        // Exemplo de soma de vetor
         int[] vetorSoma = { 1, 2, 3, 4, 5 };
         System.out.println("Soma do vetor: " + soma(vetorSoma, vetorSoma.length));
 
-        // Exemplo de inversão de string
         String strInverter = "hello";
         System.out.println("String invertida: " + inverter(strInverter));
 
-        // Exemplo de maior valor em vetor
         int[] vetorMaior = { 3, 5, 2, 9, 1 };
         System.out.println("Maior valor: " + encontrarMaior(vetorMaior, vetorMaior.length));
 
-        // Exemplo de potência
         System.out.println("2^3: " + potencia(2, 3));
 
-        // Exemplo de PA
         System.out.println("5º termo da PA (a1=2, razão=3): " + termoPA(2, 3, 5));
 
-        // Exemplo de palíndromo
         String palindromo = "A man a plan a canal Panama";
         System.out.println("\"" + palindromo + "\" é um palíndromo? " + isPalindromo(palindromo));
     }
